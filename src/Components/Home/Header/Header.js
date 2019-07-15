@@ -1,22 +1,28 @@
 import React from 'react';
 
+
 const Header = () => {
   return (
     <header>
       <h1>
-        Hi!
+        Hi, I&apos;m Anthony Campbell!
         <span role="img" aria-label="hello"> 👋 </span>
-        I&apos;m Anthony Campbell!
+        <br />
+        I&apos;m a full-stack web developer.
       </h1>
-      <h2>
-        I&apos;m a full-stack web developer based in Den Bosch, the Netherlands
-      </h2>
+      <h3>
+        <p>
+          <i className="fas fa-map-marked-alt" />
+          Den Bosch, The Netherlands
+          <span role="img" aria-label="hello"> 🇳🇱 </span>
+        </p>
+      </h3>
       {/* Links */}
       <nav>
-        <div>Git</div>
-        <div>Twitter</div>
-        <div>Resume</div>
-        <div>email</div>
+        <div><i className="fab fa-github" /></div>
+        <div><i className="fab fa-twitter-square" /></div>
+        <div><i className="fab fa-linkedin" /></div>
+        <div><i className="fas fa-at" /></div>
         {/*
           - https://github.com/AnthonyJCampbell
           - https://twitter.com/AnthonyJCampbel
@@ -24,6 +30,7 @@ const Header = () => {
           - anthony@nthonyjcampbell.com
         */}
       </nav>
+      <p><i className="fas fa-arrow-circle-down" /></p>
     </header>
   );
 };
