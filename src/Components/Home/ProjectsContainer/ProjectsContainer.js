@@ -27,6 +27,7 @@ const mockProjectsArray = [
 const ProjectsContainer = () => {
   return (
     <StyledProjectContainer id="Projects">
+      <h2>My Projects</h2>
       {mockProjectsArray.map((project) => {
         return (
           <Project key={project.id} project={project} />

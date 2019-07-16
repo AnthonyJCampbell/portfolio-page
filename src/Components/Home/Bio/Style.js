@@ -9,6 +9,7 @@ export const StyledBio = styled.div`
   color: white;
   h2 {
     font-size: 1.8em;
+    font-weight: 700;
   }
 
   p {
@@ -17,13 +18,14 @@ export const StyledBio = styled.div`
   }
 
   h3 {
-    margin: 6px 0;
+    margin: 16px 0;
     font-size: 1.6em;
     font-weight: 700;
   }
 
   h4 {
-
+    font-size: 1.2em;
+    margin: 8px 0;
   }
 
   /* Combine with the buttons found in Project Styles. Create Separate Skill Buttons */
@@ -46,17 +48,49 @@ export const StyledBio = styled.div`
       background: black;
       color: white;
 
-      transition: .3s;
+      transition: .25s;
+
       :hover {
-        background: #333;
+        color: white;
+        background: crimson;
         transform: scale(1.05);
       }
     }
   }
 
   nav {
-    div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 
+    text-align: center;
+
+    div {
+      border: 2px solid white;
+      border-radius: 8px;
+      padding: 8px 16px;
+      margin: 8px 24px;
+      min-width: 65%;
+
+      
+      background: crimson;
+      color: white;
+
+      font-size: 1.4em;
+      font-weight: 700;
+
+      transition: 0.5s;
+      cursor: pointer;
+
+      i { 
+        margin-left: 8px;
+      }
+      :hover {
+        transform: scale(1.05);
+        border: 2px solid crimson;
+        color: crimson;
+        background: white;
+      }
     }
   }
 `;

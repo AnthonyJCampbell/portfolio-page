@@ -2,7 +2,11 @@
 import styled from 'styled-components';
 
 export const StyledProjectContainer = styled.div`
-
+  h2 {
+    font-size: 1.8em;
+    padding: 16px 16px 0px;
+    font-weight: 700;
+  }
 `;
 
 export const StyledProject = styled.div`
