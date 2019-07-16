@@ -1,37 +1,40 @@
+/* eslint-disable jsx-a11y/click-events-have-key-events */
+/* eslint-disable jsx-a11y/no-static-element-interactions */
 import React from 'react';
+import { StyledHeader, CircleDown } from './Style';
 
+const clickHandler = () => {
+  console.log('clicked!');
+};
 
 const Header = () => {
   return (
-    <header>
+    <StyledHeader>
       <h1>
-        Hi, I&apos;m Anthony Campbell!
+        I&apos;m Anthony!
         <span role="img" aria-label="hello"> 👋 </span>
         <br />
         I&apos;m a full-stack web developer.
       </h1>
-      <h3>
-        <p>
-          <i className="fas fa-map-marked-alt" />
-          Den Bosch, The Netherlands
-          <span role="img" aria-label="hello"> 🇳🇱 </span>
-        </p>
-      </h3>
-      {/* Links */}
+      <p>
+        <i className="fas fa-map-marked-alt" />
+        Den Bosch, The Netherlands
+        <span role="img" aria-label="hello"> 🇳🇱 </span>
+      </p>
+
       <nav>
         <div><i className="fab fa-github" /></div>
         <div><i className="fab fa-twitter-square" /></div>
         <div><i className="fab fa-linkedin" /></div>
+        {/* Debate: onClick, go to `mailTo:` OR copy email address to clipboard OR
+          have small popup text showing my email address */}
         <div><i className="fas fa-at" /></div>
-        {/*
-          - https://github.com/AnthonyJCampbell
-          - https://twitter.com/AnthonyJCampbel
-          - Host?
-          - anthony@nthonyjcampbell.com
-        */}
       </nav>
-      <p><i className="fas fa-arrow-circle-down" /></p>
-    </header>
+      {/* On click, move to Projects */}
+      <CircleDown>
+        <i className="fas fa-arrow-circle-down" onClick={clickHandler} />
+      </CircleDown>
+    </StyledHeader>
   );
 };
 

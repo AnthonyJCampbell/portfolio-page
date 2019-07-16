@@ -25,6 +25,7 @@
     "rules": {
         "semi": 2,
         "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
-        "arrow-body-style": [0, "always"]
+        "arrow-body-style": [0, "always"],
+        "prefer-default-export": [0, "always"]
     }
 }

@@ -1,14 +1,25 @@
 /* eslint-disable react/no-array-index-key */
 import React from 'react';
+import { StyledProject } from './Style';
 
 const Project = (project) => {
+  const p = project.project;
   return (
-    <div>
-      <h3>{project.project.title}</h3>
+    <StyledProject>
+      <div>
+        <img src="https://img.icons8.com/material/4ac144/256/camera.png" alt="" />
+      </div>
+      
+      <h3>{p.title}</h3>
+      
+      <p>
+        {p.description}
+      </p>
+
       <ul>
-        {project.project.technologies.map((tech, idx) => <li key={idx}>{tech}</li>)}
+        {p.technologies.map((tech, idx) => <li key={idx}>{tech}</li>)}
       </ul>
-    </div>
+    </StyledProject>
   );
 };
 
