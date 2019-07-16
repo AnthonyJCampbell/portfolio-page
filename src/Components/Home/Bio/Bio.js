@@ -1,8 +1,9 @@
 import React from 'react';
+import { StyledBio } from './Style';
 
 const Bio = () => {
   return (
-    <div>
+    <StyledBio>
       <h2>About Me</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -34,7 +35,7 @@ const Bio = () => {
         <div>Twitter</div>
         <div>Email</div>
       </nav>
-    </div>
+    </StyledBio>
   );
 };
 

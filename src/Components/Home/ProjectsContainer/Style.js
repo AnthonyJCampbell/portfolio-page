@@ -24,9 +24,12 @@ export const StyledProject = styled.div`
   }
   h3 {
     margin: 6px 0;
+    font-size: 1.6em;
+    font-weight: 700;
   }
 
   p {
+    font-size: 1.2em;
     margin: 3px 0 9px;
   }
   ul {
@@ -42,12 +45,16 @@ export const StyledProject = styled.div`
       list-style-type: none;
       text-align: center;
       font-weight: 700;
+      font-size: 1em;
+
       
       background: black;
       color: white;
 
       transition: .3s;
       :hover {
+        border: 1px solid crimson;
+        color: crimson;
         background: #333;
         transform: scale(1.05);
       }

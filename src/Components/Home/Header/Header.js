@@ -32,7 +32,9 @@ const Header = () => {
       </nav>
       {/* On click, move to Projects */}
       <CircleDown>
-        <i className="fas fa-arrow-circle-down" onClick={clickHandler} />
+        <a href="#Projects">
+          <i className="fas fa-arrow-circle-down" onClick={clickHandler} />
+        </a>
       </CircleDown>
     </StyledHeader>
   );

@@ -67,16 +67,20 @@ export const CircleDown = styled.div`
 
   font-size: 2em;
   text-align: center;
-  i {
-    margin: 0 auto;
-    border-radius: 100%;
-    cursor: pointer;
-    transition: 0.5s;
-    animation: ${pulse} 2s infinite;
-    :hover {
-      border: 1px solid white;
-      background: white;
-      color: #222;
+  a {
+    color: white;
+    transition: 2s;
+    i {
+      margin: 0 auto;
+      border-radius: 100%;
+      cursor: pointer;
+      transition: 0.5s;
+      animation: ${pulse} 2s infinite;
+      :hover {
+        border: 1px solid white;
+        background: white;
+        color: #222;
+      }
     }
   }
 `;
