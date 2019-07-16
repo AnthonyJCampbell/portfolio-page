@@ -11,16 +11,16 @@ const mockProjectsArray = [
     img: '',
     demoLink: 'https://tipsease-1.netlify.com/',
     gitHubLink: 'https://github.com/tipsease03072019/tipsease',
-    technologies: ['React', 'Redux', 'Express', 'Firebase', 'SASS'],
+    technologies: ['React', 'Redux', 'Express', 'Firebase', 'SASS', 'Git'],
   },
   {
     title: 'Essentialism',
     id: 2,
-    description: 'The Way of the Essentialist involves doing less, but better, so you can make the highest possible contribution. It’s about getting only the right things done. Built with',
+    description: 'The Way of the Essentialist involves doing less, but better, so you can make the highest possible contribution. It’s about getting only the right things done.',
     img: '',
     demoLink: '',
     gitHubLink: '',
-    technologies: ['React', 'Redux', 'SQLite3', 'Node.js', 'Express'],
+    technologies: ['React', 'Redux', 'Less', 'SQLite3', 'Node.js', 'Express', 'Jest', 'Git'],
   },
 ];
 

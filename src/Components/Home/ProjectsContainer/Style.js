@@ -16,8 +16,9 @@ export const StyledProject = styled.div`
 
   div {
     text-align: center;
+    margin: 8px 0;
     img { 
-      border: 1px solid red;
+      border: 2px solid #222;
       margin: 0;
     }
   }
@@ -31,15 +32,25 @@ export const StyledProject = styled.div`
   ul {
     display: flex;
     flex-wrap: wrap;
+
     li {
+      padding: 8px;
+      border: 1px solid white;
+      border-radius: 4px;
+      margin: 4px;
+
       list-style-type: none;
       text-align: center;
-      padding: 6px;
       font-weight: 700;
+      
       background: black;
       color: white;
-      border: 1px solid white;
-      margin: 4px;
+
+      transition: .3s;
+      :hover {
+        background: #333;
+        transform: scale(1.05);
+      }
     }
   }
 `;
