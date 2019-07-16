@@ -1,10 +1,19 @@
 /* eslint-disable import/prefer-default-export */
 import styled from 'styled-components';
 
+export const StyledProjectContainer = styled.div`
+
+`;
+
 export const StyledProject = styled.div`
-  margin: 0;
+  margin: 16px;
   padding: 10px;
-  background: #ccc;
+  border: 2px solid #222;
+  border-radius: 16px;
+
+  background: #eee;
+
+
   div {
     text-align: center;
     img { 
@@ -22,17 +31,20 @@ export const StyledProject = styled.div`
   ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
     li {
       list-style-type: none;
       text-align: center;
-      min-width: 80px;
-      padding: 6px 4px;
-      border: 1px solid blue;
+      padding: 6px;
+      font-weight: 700;
+      background: black;
+      color: white;
+      border: 1px solid white;
+      margin: 4px;
     }
   }
 `;
 
 module.export = {
+  StyledProjectContainer,
   StyledProject,
 };
