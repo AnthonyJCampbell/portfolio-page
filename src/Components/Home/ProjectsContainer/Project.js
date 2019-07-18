@@ -1,3 +1,4 @@
+/* eslint-disable global-require */
 /* eslint-disable jsx-a11y/no-noninteractive-element-interactions */
 /* eslint-disable jsx-a11y/click-events-have-key-events */
 /* eslint-disable jsx-a11y/anchor-is-valid */
@@ -12,7 +13,7 @@ const Project = (project) => {
   return (
     <StyledProject>
       <div className="imgContainer">
-        <img src="https://img.icons8.com/material/4ac144/256/camera.png" alt="" />
+        <img src={require('./../../../NetworkIn.jpeg')} alt="" />
       </div>
 
       <h3>{p.title}</h3>

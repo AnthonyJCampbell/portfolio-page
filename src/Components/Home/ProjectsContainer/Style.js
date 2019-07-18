@@ -46,6 +46,7 @@ export const StyledProject = styled.div`
     text-align: center;
     margin: 8px 0;
     img { 
+      width: 100%;
       border: 2px solid #222;
       margin: 0;
     }
