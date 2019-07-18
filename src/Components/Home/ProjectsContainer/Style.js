@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 export const StyledProjectContainer = styled.div`
   background: white;
-  div {
+  .holder {
     max-width: 1080px;
     margin: 0 auto;
     h2 {
@@ -21,7 +21,7 @@ export const StyledProjectContainer = styled.div`
     }
   }
   @media (min-width: 720px) {
-    div {
+    .holder {
       .projectsHolder {
         flex-direction: row;
       }
@@ -32,7 +32,7 @@ export const StyledProjectContainer = styled.div`
 export const StyledProject = styled.div`
   margin: 16px auto;
   padding: 10px;
-  border: 2px solid #222;
+  border: 4px solid #222;
   border-radius: 16px;
 
   background: #eee;
@@ -62,7 +62,7 @@ export const StyledProject = styled.div`
   }
   
   .linkContainer {
-    margin: 18px 0;
+    margin: 24px 0;
 
     a {
       text-decoration: none;

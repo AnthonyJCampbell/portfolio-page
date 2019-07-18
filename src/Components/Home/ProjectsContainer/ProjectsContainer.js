@@ -45,7 +45,7 @@ const mockProjectsArray = [
 const ProjectsContainer = () => {
   return (
     <StyledProjectContainer id="Projects">
-      <div>
+      <div className="holder">
         <h2>My Projects</h2>
         <div className="projectsHolder">
           {mockProjectsArray.map((project) => {
