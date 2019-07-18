@@ -2,6 +2,8 @@
 import styled from 'styled-components';
 
 export const StyledProjectContainer = styled.div`
+  background: white;
+
   h2 {
     font-size: 1.8em;
     padding: 16px 16px 0px;
