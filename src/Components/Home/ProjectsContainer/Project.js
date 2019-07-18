@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable react/no-array-index-key */
 import React from 'react';
 import { StyledProject } from './Style';
@@ -6,15 +7,24 @@ const Project = (project) => {
   const p = project.project;
   return (
     <StyledProject>
-      <div>
+      <div className="imgContainer">
         <img src="https://img.icons8.com/material/4ac144/256/camera.png" alt="" />
       </div>
-      
+
       <h3>{p.title}</h3>
-      
+
       <p>
         {p.description}
       </p>
+
+      <div className="linkContainer">
+        <a href="#">
+          GitHub
+        </a>
+        <a href="#">
+          Demo
+        </a>
+      </div>
 
       <ul>
         {p.technologies.map((tech, idx) => <li key={idx}>{tech}</li>)}

@@ -6,7 +6,7 @@ import { StyledProjectContainer } from './Style';
 const mockProjectsArray = [
   {
     title: 'Tipsease',
-    id: 1,
+    id: 0,
     description: 'An app that allows servers and waiteresses to receive tips directly. Built with React, Redux, Express, and Firebase',
     img: '',
     demoLink: 'https://tipsease-1.netlify.com/',
@@ -15,8 +15,26 @@ const mockProjectsArray = [
   },
   {
     title: 'Essentialism',
-    id: 2,
+    id: 1,
     description: 'The Way of the Essentialist involves doing less, but better, so you can make the highest possible contribution. It’s about getting only the right things done.',
+    img: '',
+    demoLink: '',
+    gitHubLink: '',
+    technologies: ['React', 'Redux', 'Less', 'SQLite3', 'Node.js', 'Express', 'Jest', 'Git'],
+  },
+  {
+    title: 'Project #3',
+    id: 2,
+    description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus nesciunt quod temporibus illum delectus! Tempora dolores ullam alias libero ut rem ducimus explicabo debitis distinctio? Laboriosam fuga officia laudantium corrupti.',
+    img: '',
+    demoLink: '',
+    gitHubLink: '',
+    technologies: ['React', 'Redux', 'Less', 'SQLite3', 'Node.js', 'Express', 'Jest', 'Git'],
+  },
+  {
+    title: 'Project #4',
+    id: 3,
+    description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus nesciunt quod temporibus illum delectus! Tempora dolores ullam alias libero ut rem ducimus explicabo debitis distinctio? Laboriosam fuga officia laudantium corrupti.',
     img: '',
     demoLink: '',
     gitHubLink: '',

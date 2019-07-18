@@ -42,7 +42,7 @@ export const StyledProject = styled.div`
   -moz-box-shadow: 8px 12px 5px 0px rgba(0,0,0,0.25);
   box-shadow: 8px 12px 5px 0px rgba(0,0,0,0.25);
 
-  div {
+  .imgContainer {
     text-align: center;
     margin: 8px 0;
     img { 
@@ -60,6 +60,35 @@ export const StyledProject = styled.div`
     font-size: 1.2em;
     margin: 3px 0 9px;
   }
+  
+  .linkContainer {
+    margin: 18px 0;
+
+    a {
+      text-decoration: none;
+      padding: 8px;
+      border: 3px solid crimson;
+      border-radius: 4px;
+      margin: 6px 12px 6px 0;
+      
+      list-style-type: none;
+      font-weight: 700;
+      font-size: 1.4em;
+      
+      color: white;
+      background: crimson;
+
+      transition: .25s;
+
+      :hover {
+        color: crimson;
+        background: white;
+        border: 3px solid crimson;
+        transform: scale(1.05);
+      }
+    }
+  }
+
   ul {
     display: flex;
     flex-wrap: wrap;
