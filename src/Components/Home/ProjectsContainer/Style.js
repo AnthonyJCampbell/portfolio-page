@@ -3,22 +3,44 @@ import styled from 'styled-components';
 
 export const StyledProjectContainer = styled.div`
   background: white;
-
-  h2 {
-    font-size: 1.8em;
-    padding: 16px 16px 0px;
-    font-weight: 700;
+  div {
+    max-width: 1080px;
+    margin: 0 auto;
+    h2 {
+      font-size: 1.8em;
+      padding: 24px 5vw 12px;
+      font-weight: 700;
+    }
+  
+    .projectsHolder {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      max-width: 1080px;
+      margin: 0 auto;
+    }
+  }
+  @media (min-width: 720px) {
+    div {
+      .projectsHolder {
+        flex-direction: row;
+      }
+    }
   }
 `;
 
 export const StyledProject = styled.div`
-  margin: 16px;
+  margin: 16px auto;
   padding: 10px;
   border: 2px solid #222;
   border-radius: 16px;
 
   background: #eee;
+  width: 90vw;
 
+  -webkit-box-shadow: 8px 12px 5px 0px rgba(0,0,0,0.25);
+  -moz-box-shadow: 8px 12px 5px 0px rgba(0,0,0,0.25);
+  box-shadow: 8px 12px 5px 0px rgba(0,0,0,0.25);
 
   div {
     text-align: center;
@@ -65,6 +87,14 @@ export const StyledProject = styled.div`
         transform: scale(1.05);
       }
     }
+  }
+  @media (min-width: 720px) {
+    width: 45%;
+    border: 3px solid #222;
+
+    -webkit-box-shadow: 6px 9px 5px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 6px 9px 5px 0px rgba(0,0,0,0.25);
+    box-shadow: 6px 9px 5px 0px rgba(0,0,0,0.25);
   }
 `;
 
