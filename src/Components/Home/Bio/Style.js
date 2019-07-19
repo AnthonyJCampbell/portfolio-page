@@ -80,13 +80,13 @@ export const StyledBio = styled.div`
     
         text-align: center;
     
-        div {
+        a {
           border: 2px solid white;
           border-radius: 8px;
           padding: 8px 16px;
           margin: 8px 24px;
           min-width: 65%;
-    
+          text-decoration: none;
           
           background: crimson;
           color: white;
@@ -139,7 +139,7 @@ export const StyledBio = styled.div`
         border-bottom: 3px solid crimson;
         margin-bottom: 12px;
 
-        div {
+        a {
           min-width: 0;
           font-size: 1.2em;
           margin: 8px;

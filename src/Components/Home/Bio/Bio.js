@@ -18,7 +18,7 @@ const Bio = () => {
         I&apos;ve had a lot of experience with agile/lean teams working with the latest development
         processes and continuous deployment practices.
       </p>
-      
+
       <div>
         <div className="skills">
           <h3>Skills</h3>
@@ -58,30 +58,37 @@ const Bio = () => {
         </div>
         <div className="linksHolder">
           <nav>
-            <div
+            <a 
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
               className="resume"
               onClick={clickHandler}
             >
               My Resume
-            </div>
-            <div
-              onClick={clickHandler}
+            </a>
+            <a
+              href="https://github.com/anthonyjcampbell/"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <i className="fab fa-github" />
               GitHub
-            </div>
-            <div
-              onClick={clickHandler}
+            </a>
+            <a
+              href="mailto:anthony@anthonyjcampbell.com"
             >
               <i className="fas fa-at" />
               Email
-            </div>
-            <div
-              onClick={clickHandler}
+            </a>
+            <a
+              href="https://twitter.com/anthonyjcampbel"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <i className="fab fa-twitter-square" />
               Twitter
-            </div>
+            </a>
           </nav>
         </div>
         <p className="love">
