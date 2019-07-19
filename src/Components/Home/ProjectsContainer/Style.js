@@ -2,7 +2,7 @@
 import styled from 'styled-components';
 
 export const StyledProjectContainer = styled.div`
-  background: white;
+  background: #eee;
   padding-bottom: 12px;
 
   .holder {
@@ -37,12 +37,14 @@ export const StyledProject = styled.div`
   border: 4px solid #222;
   border-radius: 16px;
 
-  background: #eee;
+  background: #dfdfdf;
   width: 90vw;
 
   -webkit-box-shadow: 8px 12px 5px 0px rgba(0,0,0,0.25);
   -moz-box-shadow: 8px 12px 5px 0px rgba(0,0,0,0.25);
   box-shadow: 8px 12px 5px 0px rgba(0,0,0,0.25);
+
+  transition: 1s;
 
   .imgContainer {
     text-align: center;
@@ -127,6 +129,9 @@ export const StyledProject = styled.div`
     -webkit-box-shadow: 6px 9px 5px 0px rgba(0,0,0,0.25);
     -moz-box-shadow: 6px 9px 5px 0px rgba(0,0,0,0.25);
     box-shadow: 6px 9px 5px 0px rgba(0,0,0,0.25);
+  }
+  @media (min-width: 1280px) {
+    padding: 16px;
   }
 `;
 
