@@ -7,7 +7,7 @@ const mockProjectsArray = [
   {
     title: 'Tipsease',
     id: 0,
-    description: 'An app that allows servers and waiteresses to receive tips directly. Built with React, Redux, Express, and Firebase',
+    description: 'An app that allows servers and waiteresses to receive tips directly. Built with React, Redux, Express, and Firebase. At the moment, the app is still incomplete due to a compromised back-end',
     img: '',
     demoLink: 'https://tipsease-1.netlify.com/',
     gitHubLink: 'https://github.com/tipsease03072019/tipsease',
@@ -25,7 +25,7 @@ const mockProjectsArray = [
   {
     title: 'Project #3',
     id: 2,
-    description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus nesciunt quod temporibus illum delectus! Tempora dolores ullam alias libero ut rem ducimus explicabo debitis distinctio? Laboriosam fuga officia laudantium corrupti.',
+    description: 'Doloribus nesciunt quod temporibus illum delectus! Tempora dolores ullam alias libero ut rem ducimus explicabo debitis distinctio? Laboriosam fuga officia laudantium corrupti.',
     img: '',
     demoLink: '',
     gitHubLink: '',
@@ -34,7 +34,7 @@ const mockProjectsArray = [
   {
     title: 'Project #4',
     id: 3,
-    description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus nesciunt quod temporibus illum delectus! Tempora dolores ullam alias libero ut rem ducimus explicabo debitis distinctio? Laboriosam fuga officia laudantium corrupti.',
+    description: 'Doloribus nesciunt quod temporibus illum delectus! Tempora dolores ullam alias libero ut rem ducimus explicabo debitis distinctio? Laboriosam fuga officia laudantium corrupti.',
     img: '',
     demoLink: '',
     gitHubLink: '',

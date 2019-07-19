@@ -3,11 +3,13 @@ import styled from 'styled-components';
 
 export const StyledProjectContainer = styled.div`
   background: white;
+  padding-bottom: 12px;
+
   .holder {
     max-width: 1080px;
     margin: 0 auto;
     h2 {
-      font-size: 1.8em;
+      font-size: 2.4em;
       padding: 24px 5vw 12px;
       font-weight: 700;
     }
@@ -79,7 +81,7 @@ export const StyledProject = styled.div`
       color: white;
       background: crimson;
 
-      transition: .25s;
+      transition: .5s;
 
       :hover {
         color: crimson;

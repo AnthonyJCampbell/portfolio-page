@@ -18,56 +18,80 @@ const Bio = () => {
         I&apos;ve had a lot of experience with agile/lean teams working with the latest development
         processes and continuous deployment practices.
       </p>
+      
+      <div>
+        <div className="skills">
+          <h3>Skills</h3>
+          {/* Stretch: Dropdowns that reveal the skills */}
+          <h4>Languages &amp; Frameworks</h4>
+          <ul>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>C</li>
+            <li>React</li>
+            <li>Redux</li>
+            <li>Node.js</li>
+            <li>Express</li>
+            <li>React Native</li>
+          </ul>
 
-      <h3>Skills</h3>
-      {/* Stretch: Dropdowns that reveal the skills */}
-      <h4>Languages &amp; Frameworks</h4>
-      <ul>
-        <li>JavaScript</li>
-        <li>Python</li>
-        <li>C</li>
-        <li>React</li>
-        <li>Redux</li>
-        <li>Node.js</li>
-        <li>Express</li>
-        <li>React Native</li>
-      </ul>
+          <h4>Databases</h4>
+          <ul>
+            <li>MongoDB</li>
+            <li>PostGreSQL</li>
+            <li>SQLite3</li>
+          </ul>
 
-      <h4>Databases</h4>
-      <ul>
-        <li>MongoDB</li>
-        <li>PostGreSQL</li>
-        <li>SQLite3</li>
-      </ul>
+          <h4>Tools &amp; Testing</h4>
+          <ul>
+            <li>Git</li>
+            <li>Jest</li>
+            <li>Enzyme</li>
+            <li>Babel</li>
+            <li>OAuth</li>
+            <li>Webpack</li>
+          </ul>
+        </div>
 
-      <h4>Tools &amp; Testing</h4>
-      <ul>
-        <li>Git</li>
-        <li>Jest</li>
-        <li>Enzyme</li>
-        <li>Babel</li>
-        <li>OAuth</li>
-        <li>Webpack</li>
-      </ul>
-
-      <h3>Links</h3>
-      <nav>
-        <div onClick={clickHandler} >
-          My Resume
+        <div className="links">
+          <h3>Links</h3>
         </div>
-        <div onClick={clickHandler}>
-          GitHub
-          <i className="fab fa-github" />
+        <div className="linksHolder">
+          <nav>
+            <div
+              className="resume"
+              onClick={clickHandler}
+            >
+              My Resume
+            </div>
+            <div
+              onClick={clickHandler}
+            >
+              <i className="fab fa-github" />
+              GitHub
+            </div>
+            <div
+              onClick={clickHandler}
+            >
+              <i className="fas fa-at" />
+              Email
+            </div>
+            <div
+              onClick={clickHandler}
+            >
+              <i className="fab fa-twitter-square" />
+              Twitter
+            </div>
+          </nav>
         </div>
-        <div onClick={clickHandler}>
-          Twitter
-          <i className="fab fa-twitter-square" />
-        </div>
-        <div onClick={clickHandler}>
-          Email
-          <i className="fas fa-at" />
-        </div>
-      </nav>
+        <p className="love">
+          Made with
+          <span role="img" aria-label="heart">
+          ❤️
+          </span>
+          in the Netherlands
+        </p>
+      </div>
     </StyledBio>
   );
 };
