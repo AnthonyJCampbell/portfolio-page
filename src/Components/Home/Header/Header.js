@@ -23,12 +23,34 @@ const Header = () => {
       </p>
 
       <nav>
-        <div><i className="fab fa-github" /></div>
-        <div><i className="fab fa-twitter-square" /></div>
-        <div><i className="fab fa-linkedin" /></div>
+        <a
+          href="https://github.com/anthonyjcampbell/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-github" />
+        </a>
+        <a
+          href="https://twitter.com/anthonyjcampbel"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-twitter-square" />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/anthonyjcampbell/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-linkedin" />
+        </a>
         {/* Debate: onClick, go to `mailTo:` OR copy email address to clipboard OR
           have small popup text showing my email address */}
-        <div><i className="fas fa-at" /></div>
+        <a
+          href="mailto:anthony@anthonyjcampbell.com"
+        >
+          <i className="fas fa-at" />
+        </a>
       </nav>
       {/* On click, move to Projects */}
       <CircleDown>

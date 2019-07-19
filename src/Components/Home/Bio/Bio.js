@@ -58,8 +58,8 @@ const Bio = () => {
         </div>
         <div className="linksHolder">
           <nav>
-            <a 
-              href="#"
+            <a
+              href="www.anthonycampbell.dev"
               target="_blank"
               rel="noopener noreferrer"
               className="resume"

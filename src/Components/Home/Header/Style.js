@@ -29,16 +29,24 @@ export const StyledHeader = styled.header`
     max-width: 320px;
     margin: 24px auto;
     font-size: 1.8em;
-
-    i {
-      border: 2px solid #222;
-      padding: 8px;
-      transition: 1s;
+    a {
+      text-decoration: none;
+      color: white;
+      transition: 2s;
       :hover {
-        color: crimson;
         transform: scale(1.2);
-        border: 2px solid crimson;
-        border-radius: 100%;
+      }
+
+      i {
+        border: 2px solid #222;
+        padding: 8px;
+        transition: 1s;
+        :hover {
+          color: crimson;
+          transform: scale(1.2);
+          border: 2px solid crimson;
+          border-radius: 100%;
+        }
       }
     }
   }
