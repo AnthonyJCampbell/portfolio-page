@@ -7,11 +7,11 @@ const mockProjectsArray = [
   {
     title: 'Tipsease',
     id: 0,
-    description: 'An app that allows servers and waiteresses to receive tips directly. Built with React, Redux, Express, and Firebase. At the moment, the app is still incomplete due to a compromised back-end',
+    description: 'An app that allows servers and waiteresses to receive tips directly. Built with React, Redux, Express, and Firebase. At the moment, the app is still incomplete due to a compromised back-end. New back-end will be built with MongoDB',
     img: '',
     demoLink: 'https://tipsease-1.netlify.com/',
     gitHubLink: 'https://github.com/tipsease03072019/tipsease',
-    technologies: ['React', 'Redux', 'Express', 'Firebase', 'SASS', 'Git'],
+    technologies: ['React', 'Redux', 'Express', 'Firebase', 'SASS', 'Git', 'MongoDB'],
   },
   {
     title: 'Essentialism',
